@@ -1,6 +1,7 @@
 FROM jenkins/inbound-agent:alpine
 
-ARG user=root # we need root access to use dind
+# we need root access to use dind
+ARG user=root
 
 USER root
 RUN apk add docker
