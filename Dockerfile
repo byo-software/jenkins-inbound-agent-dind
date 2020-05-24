@@ -2,7 +2,7 @@ FROM jenkins/inbound-agent
 
 ARG user=jenkins
 
-USER ROOT
+USER root
 RUN apk add docker
 
 USER ${user}
