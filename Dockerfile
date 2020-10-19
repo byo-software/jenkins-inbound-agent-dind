@@ -1,4 +1,4 @@
-FROM jenkins/inbound-agent:latest-alpine-jdk11
+FROM jenkins/inbound-agent:alpine
 
 # we need root access to use dind
 ARG user=root
